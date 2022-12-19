@@ -1,0 +1,33 @@
+{
+  "name": "nodejs-api-ethereum-blockchain",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon server.js",
+    "build": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://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@github.com/rupak1989/nodejs-api-ethereum-blockchain.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/rupak1989/nodejs-api-ethereum-blockchain/issues"
+  },
+  "homepage": "https://github.com/rupak1989/nodejs-api-ethereum-blockchain#readme",
+  "dependencies": {
+    "dotenv": "^16.0.3",
+    "express": "^4.18.2",
+    "ipfs-api": "^26.1.2",
+    "mongodb": "^4.12.1",
+    "nodemon": "^2.0.20",
+    "short-id": "^0.1.0-1",
+    "shortid": "^2.2.16",
+    "truffle-contract": "^4.0.31",
+    "web3": "^1.8.1"
+  }
+}
